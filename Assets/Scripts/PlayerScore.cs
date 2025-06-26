@@ -23,7 +23,7 @@ public class PlayerScore : MonoBehaviour
         {
             Debug.Log("Je hebt gewonnen!");
         }
-        if(Input.GetKeyUp(KeyCode.Space))
+        if(Input.GetKeyUp(KeyCode.Tab))
         {
             AddCoin(10);
         }
